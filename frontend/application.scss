@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+.review-card {
+  display: inline-block;
+  &__image {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+  &__content {
+    padding-left: 10px;
+    display: inline-block;
+  }
+}

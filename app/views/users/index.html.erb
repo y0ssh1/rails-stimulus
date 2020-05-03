@@ -1,0 +1,8 @@
+<div>
+  <% @users.each do |u| %>
+    <div data-controller="user-loader" data-user-loader-url=<%= user_reviews_path(u) %>>
+      <%= link_to u.name, '#', class: 'btn btn-success', data: { target: 'user-loader.user', action: 'user-loader#load' } %>
+      <div data-target='user-loader.review'></div>
+    </div>
+  <% end %>
+</div>
