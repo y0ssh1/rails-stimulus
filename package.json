@@ -6,7 +6,7 @@
     "@babel/preset-env": "^7.9.6",
     "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "precss": "^4.0.0",
     "style-loader": "^1.2.1",
